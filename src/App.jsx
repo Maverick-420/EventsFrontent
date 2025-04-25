@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import ActivityPage from "./pages/ActivityPage";
 import Hero from "./components/Hero";
-import Foodcourt from "./pages/foodcourt";
+import Foodcourt from "./pages/Foodcourt";
 import RestaurantPage from "./pages/Restraunt";
 import About from "./pages/About";
 import PlayYourWay from "./components/PlayYourWay";
