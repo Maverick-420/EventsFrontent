@@ -1,17 +1,54 @@
-<<<<<<< HEAD
-# React + Vite
+# 🎮 PlayEvent – Responsive Event & Activity Homepage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive homepage for an activity and events website, inspired by [PlayArena](https://www.playarena.in). Built with **React**, **TailwindCSS**, and **Vite** to deliver a modern, fast, and visually engaging user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [View Live Site](https://playevent.netlify.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# EventsFrontent
-A fully responsive website for a recreational space inspired by PlayArena — built with React, TailwindCSS, and Vite.
->>>>>>> babb7ed66163e298bef367d4975375646452ed38
+---
+
+## 📁 Features
+
+- 🎬 **Hero Section with Background Video**
+- 🧭 **Dropdown Navigation Bar** with descriptions and links
+- 🎉 **Activities Pages** – Individual dynamic routes like `/activities/studio`
+- 🎠 **"Now Playing" Carousel** with image and text cards
+- 🎈 **Play Your Way Section** for Events, Birthdays, Corporate Packages
+- 📅 **Book Your Slot** – Custom calendar-style section
+- ♾️ **Animated Scrolling Text** ("For the love of Play")
+- 📱 Fully **Responsive** for mobile, tablet, and desktop
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, JavaScript, TailwindCSS
+- **Bundler:** Vite
+- **Routing:** React Router
+- **Deployment:** Netlify
+
+---
+
+## 🧪 How to Run Locally
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Maverick-420/EventsFrontent.git
+2.Install dependencies:npm install
+3.Start the development server:npm run dev
+
+## 📁 Folder Structure
+src/
+│
+├── components/        # Reusable UI components (Navbar, Hero, Carousel, etc.)
+├── pages/             # Route-specific pages (ActivityPage, About, Foodcourt, etc.)
+├── assets/            # Images, videos, icons
+├── App.jsx            # App entry point with Routes
+└── main.jsx           # React root rendering
+
+##Author->Maverick-420
+
+
